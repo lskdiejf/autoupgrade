@@ -1,0 +1,16 @@
+pkgbase = autoupgrade
+	pkgdesc = Instantâneo automático e, em seguida, atualize o sistema. (Quando o sistema falhar, faça o procedimento de `sudo timeshift --restore` e remova este plug até que a falha seja resolvida.).
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = http://localhost/autoupgrade
+	install = autoupgrade.install
+	arch = any
+	license = cIO
+	depends = timeshift-autosnap
+	source = autoupgrade.service
+	source = autoupgrade.timer
+	md5sums = SKIP
+	md5sums = SKIP
+
+pkgname = autoupgrade
+
